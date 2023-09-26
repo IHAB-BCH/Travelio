@@ -2,7 +2,7 @@ import Cards from "../components/Cards";
 
 function Service() {
   return (
-    <div>
+    <div id="services">
       <Cards />
     </div>
   );

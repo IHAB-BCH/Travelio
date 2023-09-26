@@ -9,7 +9,7 @@ import Turky from "../assets/images/destination-6.jpg";
 import Button from "../components/Button";
 function TopPlaces() {
   return (
-    <div>
+    <div id="pricing">
       <div>
         <p className="font-medium text-lg text-majorelle-blue text-center mb-6">
           TOP DESTINATIONS
@@ -72,7 +72,11 @@ function TopPlaces() {
         </div>
       </div>
       <div className="flex items-center justify-center mt-10">
-        <Button content={"View All Destinations"} href={"#"} />
+        <Button
+          content={"View All Destinations"}
+          href={"#"}
+          className={"hover:bg-majoreller-hover transition-all duration-100"}
+        />
       </div>
     </div>
   );

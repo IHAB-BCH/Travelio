@@ -14,7 +14,7 @@ function CTA() {
         <Button
           content={"Get Started"}
           className={
-            "text-lg shadow-lg hover:shadow-sm transition-all duration-200"
+            "text-lg shadow-lg hover:shadow-sm transition-all duration-200 hover:bg-majoreller-hover"
           }
         />
       </div>

@@ -5,7 +5,7 @@ import SendIcon from "../assets/images/send.svg";
 import Logo from "../components/Logo";
 function About() {
   return (
-    <section>
+    <section id="about">
       <div className="grid grid-cols-5 items-start grid-rows-1 gap-10 mb-8 border-b border-gray-400 pb-20">
         <div>
           <div>
@@ -15,9 +15,9 @@ function About() {
               possible
             </p>
             <div className="flex items-center gap-3">
-              <img src={FacebookIcon} alt="" className="w-4" />
-              <img src={InstagramIcon} alt="" className="w-4" />
-              <img src={TwitterIcon} alt="" className="w-4" />
+              <img src={FacebookIcon} alt="" className="w-4 cursor-pointer" />
+              <img src={InstagramIcon} alt="" className="w-4 cursor-pointer" />
+              <img src={TwitterIcon} alt="" className="w-4 cursor-pointer" />
             </div>
           </div>
         </div>
@@ -25,54 +25,54 @@ function About() {
           <button className="text-xl font-medium mb-3" href="#">
             About
           </button>
-          <button className=" text-granite-gray" href="#">
-            About Us
+          <button className=" text-granite-gray hover:text-majorelle-blue transition-all duration-150">
+            <a href="#">About Us</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Features
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Features</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            New
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">New</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Menu
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Menu</a>
           </button>
         </div>
         <div className="flex flex-col gap-3  ">
           <button className="text-xl font-medium mb-3" href="#">
             Company
           </button>
-          <button className=" text-granite-gray" href="#">
-            Why Company
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Why Company</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Partner With Us
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Partner With Us</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            FAQ
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">FAQ</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Blog
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Blog</a>
           </button>
         </div>
         <div className="flex flex-col gap-3  ">
           <button className="text-xl font-medium mb-3" href="#">
             Support
           </button>
-          <button className=" text-granite-gray" href="#">
-            Account
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Account </a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Support Center
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Support Center</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Feedback
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Feedback</a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Contact Us
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Contact Us </a>
           </button>
-          <button className=" text-granite-gray" href="#">
-            Accessibility
+          <button className="hover:text-majorelle-blue transition-all duration-150 text-granite-gray">
+            <a href="#">Accessibility</a>
           </button>
         </div>
         <div>
@@ -94,7 +94,7 @@ function About() {
       </div>
       <div className="flex items-center justify-between mb-10">
         <div className="flex items-center gap-1">
-          <p className="text-granite-gray ">Copyright Made by</p>
+          <p className="text-granite-gray ">&copy; 2023 Made by</p>
           <p className="text-majorelle-blue font-medium">IHAB BOUCHIA</p>
         </div>
         <div className="flex items-center gap-10">
