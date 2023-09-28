@@ -24,17 +24,25 @@ function PageNav() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Logo />
-        <div className="flex gap-12 ">
+        <div className="flex gap-12 cursor-pointer">
           {/* <NavItem href="#">Home</NavItem>
           <NavItem href="#">About</NavItem>
           <NavItem href="#">Pricing</NavItem>
           <NavItem href="#">Services</NavItem>
           <NavItem href="#">Contact</NavItem> */}
-          <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
+          <Link
+            to="/"
+            spy={true}
+            smooth={true}
+            className="hover:text-majorelle-blue"
+            offset={-100}
+            duration={500}
+          >
             Home
           </Link>
           <Link
             to="services"
+            className="hover:text-majorelle-blue"
             spy={true}
             smooth={true}
             offset={-100}
@@ -44,6 +52,7 @@ function PageNav() {
           </Link>
           <Link
             to="pricing"
+            className="hover:text-majorelle-blue"
             spy={true}
             smooth={true}
             offset={-100}
@@ -53,6 +62,7 @@ function PageNav() {
           </Link>
           <Link
             to="experience"
+            className="hover:text-majorelle-blue"
             spy={true}
             smooth={true}
             offset={-100}
@@ -60,12 +70,21 @@ function PageNav() {
           >
             Experience
           </Link>
-          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+          <Link
+            className="hover:text-majorelle-blue"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             Contact
           </Link>
         </div>
         <div className="flex items-center space-x-4">
-          <NavItem href="#">Login</NavItem>
+          <a href="#" className="hover:text-majorelle-blue">
+            Login
+          </a>
           <Button
             href={"#"}
             content={"Sing Up"}
@@ -74,17 +93,6 @@ function PageNav() {
         </div>
       </div>
     </nav>
-  );
-}
-
-function NavItem({ href, children, className }) {
-  return (
-    <a
-      href={href}
-      className={`hover:text-majorelle-blue transition-all ease-linear duration-100 ${className}`}
-    >
-      {children}
-    </a>
   );
 }
 

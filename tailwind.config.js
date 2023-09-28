@@ -10,6 +10,7 @@ export default {
         "granite-gray": "hsl(210, 4%, 38%)",
         "majorelle-blue": "hsl(249, 95%, 63%)",
         "majoreller-hover": "hsl(249, 56%, 50%)",
+        "english-vermillon": "hsl(357, 64%, 53%)",
         sunglow: "hsl(48, 100%, 50%)",
         background: "#fdf2f2",
         "red-salsa": "hsl(357, 94%, 63%)",

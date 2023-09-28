@@ -19,12 +19,12 @@ function HeroText() {
             possible
           </p>
           <div className="flex items-center gap-5 mt-10">
-            <button className="bg-red-salsa rounded-full py-3 px-8  text-white ">
+            <button className="bg-red-salsa rounded-full py-3 px-8  text-white hover:bg-english-vermillon transition-all duration-100">
               Plan a Trip &rarr;
             </button>
             <img src={HeroBtnImg} alt="" className="rounded-full w-16" />
             <img src={PlayBtn} alt="" className="w-10 m-minus cursor-pointer" />
-            <p className="ml-6 text-neutral-600 font-semibold">
+            <p className="ml-6 text-neutral-600 font-semibold hover:text-majorelle-blue cursor-pointer">
               Watch our Story
             </p>
           </div>

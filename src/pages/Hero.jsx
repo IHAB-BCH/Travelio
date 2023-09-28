@@ -1,7 +1,7 @@
 import HeroText from "../components/HeroText";
 function Hero() {
   return (
-    <section id="home">
+    <section id="/">
       <HeroText />
     </section>
   );

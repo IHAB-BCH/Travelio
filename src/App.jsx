@@ -6,7 +6,6 @@ import Hero from "./pages/Hero";
 import PhotoGallery from "./pages/PhotoGallery";
 import Service from "./pages/Service";
 import TopPlaces from "./pages/TopPlaces";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -19,11 +18,6 @@ function App() {
       <PhotoGallery />
       <CTA />
       <About />
-      <BrowserRouter>
-        <Routes>
-          <Route path="pricing" element={<About />} />
-        </Routes>
-      </BrowserRouter>
     </div>
   );
 }
